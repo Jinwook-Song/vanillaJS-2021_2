@@ -1,23 +1,33 @@
-const title = document.getElementById("title");
+const loginForm = document.querySelector("#login_form");
+const loginInput = loginForm.querySelector("input");
+const greeting = document.querySelector("#user_name");
 
-title.innerHTML = "got you";
+const USERNAME_KEY = "user";
+const savedUserName = localStorage.getItem(USERNAME_KEY);
 
-function handleTitleMousedown() {
-  title.style.color = "blue";
-}
-function handleTitleMouseUp() {
-  title.style.color = "red";
-}
-function handleTitleClick() {
-  title.classList.toggle("clicked");
-}
-
-function handleWindowCopy() {
-  alert("copied!");
+function paintGreetings() {
+  const userName = localStorage.getItem(USERNAME_KEY);
+  greeting.hidden = false;
+  greeting.innerHTML = `Hello ${userName} 🎉`;
 }
 
-// title.addEventListener("mouseenter", handleTitleMousedown);
-// title.addEventListener("mouseleave", handleTitleMouseUp);
-title.addEventListener("click", handleTitleClick);
+function onLoginSubmit(event) {
+  event.preventDefault();
+  loginForm.hidden = true;
+  localStorage.setItem(USERNAME_KEY, loginInput.value);
+  paintGreetings();
+  loginInput.value = "";
+}
 
-window.addEventListener("copy", handleWindowCopy);
+function init() {
+  if (savedUserName) {
+    loginForm.hidden = true;
+    paintGreetings();
+  } else {
+    greeting.hidden = true;
+    loginForm.hidden = false;
+    loginForm.addEventListener("submit", onLoginSubmit);
+  }
+}
+
+init();
