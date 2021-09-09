@@ -1,0 +1,71 @@
+@import "reset.css";
+
+* {
+  color: rgb(235, 181, 181);
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+#clock {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 6rem;
+}
+
+#login_form,
+#user_name {
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  font-size: 3rem;
+  color: rgb(206, 72, 72);
+}
+
+#todo_form {
+  position: absolute;
+  top: 43%;
+  left: 10%;
+}
+#todo_form > input {
+  width: 300px;
+  height: 30px;
+  border-radius: 2rem;
+  text-align: center;
+  color: rgb(204, 121, 121);
+  font-size: 1rem;
+  font-weight: 600;
+}
+#todo_list {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 3rem;
+}
+
+#quote span:first-child {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  font-size: 1.5rem;
+}
+#quote span:last-child {
+  position: absolute;
+  top: 95%;
+  left: 10%;
+  font-size: 1rem;
+}
+
+#weather {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 1.5rem;
+}

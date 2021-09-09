@@ -8,7 +8,7 @@ const savedUserName = localStorage.getItem(USERNAME_KEY);
 function paintGreetings() {
   const userName = localStorage.getItem(USERNAME_KEY);
   greeting.hidden = false;
-  greeting.innerHTML = `Hello ${userName} 🎉`;
+  greeting.innerHTML = `Hello ${userName} 🎨`;
 }
 
 function onLoginSubmit(event) {
