@@ -28,6 +28,21 @@ img {
   font-size: 3rem;
   color: rgb(206, 72, 72);
 }
+#login_form > input {
+  border-radius: 0.5rem;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+#login_form > button {
+  border-radius: 0.5rem;
+  height: 35px;
+  color: rgb(82, 71, 71);
+  background-color: whitesmoke;
+  font-weight: 600;
+}
 
 #todo_form {
   position: absolute;
