@@ -26,7 +26,7 @@ img {
   top: 32%;
   left: 10%;
   font-size: 3rem;
-  color: rgb(206, 72, 72);
+  color: rgb(184, 54, 54);
 }
 #login_form > input {
   border-radius: 0.5rem;
@@ -37,11 +37,16 @@ img {
   font-weight: 600;
 }
 #login_form > button {
-  border-radius: 0.5rem;
   height: 35px;
-  color: rgb(82, 71, 71);
-  background-color: whitesmoke;
+  color: rgb(235, 181, 181);
   font-weight: 600;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+#login_form > button:hover {
+  color: rgb(172, 23, 23);
 }
 
 #todo_form {
