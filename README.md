@@ -4,13 +4,13 @@
 
 | Feature |                                                                                                                                          Views                                                                                                                                          |
 | :-----: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  Page   | <img widtH="320" height="200" src="https://user-images.githubusercontent.com/78011042/142873469-695f6b7e-83e3-4cb6-95a6-a562315d93ad.png"/> <img widtH="320" height="200" src="https://user-images.githubusercontent.com/78011042/142873863-43b14e80-d122-4b87-8da1-4fdbec3bbe5c.png"/> |
+|  Page   | <img widtH="320" height="200" src="https://user-images.githubusercontent.com/78011042/142873469-695f6b7e-83e3-4cb6-95a6-a562315d93ad.png"/> <img widtH="320" height="200" src="https://user-images.githubusercontent.com/78011042/142879665-b0083886-1f4d-47ac-bc2b-ee59bb9d24f2.png"/> |
 
 ## 🛠 Stack
 
 ### Front-end
 
-<img height="30" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" /> <img height="30" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"/> <img height="30" src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white" />
+<img height="30" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" /> <img height="30" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"/> <img height="30" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white" />
 
 ## 📦 Packages
 
@@ -22,28 +22,22 @@
 
 ## 📖 Theory
 
-- [x] IDs & Classes
-- [x] HTML Tags
-- [x] Semantic & Non-Semantic tags
-- [x] Box Model
-- [x] Inline, Block, Inline-block
-- [x] CSS Position
-- [x] Flexbox
-- [x] Selectors
-- [x] Pseudo Selectors
-- [x] Transitions
-- [x] Animations
-- [x] Media Queries
+- [x] Variables
+- [x] Functions
+- [x] Data Types
+- [x] Arrays, Objects
+- [x] DOM Functions
+- [x] Events
+- [x] if / else / for
 
-## 📱 Pages
+## ⚙ Features
 
-- [x] Status Bar
-- [x] Chat
-- [x] Find
-- [x] Friends
-- [x] Settings
-- [x] Message Animations
+- [x] JS Clock
+- [x] JS To Do List
+- [x] Get Geolocation
+- [x] Get Weather Information
+- [x] Deploy to Github Pages
 
 ## 🔗 Link
 
-### [Kakao Talk](https://jinwook-song.github.io/kokoa-clone-2021/)
+### [Momentum](https://github.com/Jinwook-Song/vanillaJS-2021_2)
